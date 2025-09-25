@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgba(232, 129, 3, 0.882);
+  /* position: relative; */
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.business-name {
+  font-size: 50px;
+  padding: 15px;
+}
+.discription {
+  list-style: none;
+  display: flex;
+   position: absolute; 
+  right: 4px;
+  top: 10px;
+}
+.pages {
+  padding: 30px;
+}
+.page-link {
+  text-decoration: none;
+  color: black;
+}
+.page-link:hover {
+  background-color: cornsilk;
+  padding: 10px;
+  border-radius: 5px;
+}
+.background-image {
+  width: 100%;
+  height: 700px;
+  /* opacity: 0.9; */
+  background-repeat: repeat;
+}
+.main-page{
+  position: relative; 
+}
+.welcome {
+   position: absolute; 
+   top: 350px; 
+   /* right:20%; */
+   width: 100%;
+  background-color: rgba(232, 129, 3, 0.882);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+
+}
+.welcome-head {
+  font-size: 55px;
+}
+.welcome-speech {
+  font-size: 30px;
+}
+footer {
+  background-color: black;
+  color: bisque;
+}
+.footer-head {
+  text-align: center;
+}
+.first-foot {
+  padding: 10px;
+}
+.list {
+  padding: 10px;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+.price {
+  color: red;
+  font-size: large;
+  padding-bottom: 15px;
+}
+.order {
+  text-decoration: none;
+  width: 100%;
+  padding: 5px 65px;
+  background-color: red;
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
+.second-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+  flex-wrap: wrap;
+}
+.second-head {
+  text-align: center;
+}
+@media screen and (max-width:768px)
+{
+  .discription{
+    display: none;
+  }
+}
