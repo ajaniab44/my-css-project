@@ -76,7 +76,7 @@ footer {
 .main-footer {
   display: flex;
   justify-content: space-evenly;
-  padding: 50px;
+  /* padding: 50px; */
 }
 .img {
   width: 250px;

@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* figure {
+  transition: trnsform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px white;
+} */
+.main-background {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+h1 {
+  color: bisque;
+  text-align: center;
+  padding: 20px;
+}
+body {
+  background-color: black;
+}
+.caption {
+  color: bisque;
+}
+.price {
+  color: red;
+  font-size: large;
+  padding-bottom: 15px;
+}
+.order {
+  text-decoration: none;
+  width: 100%;
+  padding: 5px 65px;
+  background-color: red;
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
+figcaption {
+  padding: 15px;
+  margin: auto;
+}
+footer {
+  color: black;
+  background-color: bisque;
+  text-align: center;
+  padding: 20px;
+
+  font-size: 25px;
+  margin-top: 200px;
+}
